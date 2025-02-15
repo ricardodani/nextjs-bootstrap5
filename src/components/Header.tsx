@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Button from "react-bootstrap/Button";
 
 const Header: React.FC = () => {
   return (
@@ -16,7 +17,7 @@ const Header: React.FC = () => {
         target="_blank"
         rel="noopener"
       >
-        Link 1
+        <Button variant="primary">Primary</Button>
       </a>
     </header>
   );

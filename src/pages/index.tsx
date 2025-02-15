@@ -1,9 +1,7 @@
 import Head from "next/head";
 import Container from "react-bootstrap/Container";
-import AppGuides from "@/components/AppGuides";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import ExampleComponents from "@/components/ExampleComponents";
 
 export default function Home() {
   return (
@@ -16,14 +14,7 @@ export default function Home() {
       </Head>
       <Container as="main" className="py-4 px-3 mx-auto">
         <Header />
-
         <h1>Build Bootstrap with React</h1>
-
-        <ExampleComponents />
-
-        <hr className="col-1 my-5 mx-0" />
-
-        <AppGuides />
         <Footer />
       </Container>
     </>

@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
       <Container as="main" className="py-4 px-3 mx-auto">
         <Header />
-        <h1>Build Bootstrap with React</h1>
+        <h1>Company name</h1>
         <Footer />
       </Container>
     </>
